@@ -10,11 +10,8 @@ public class BitwiseValuesSwap {
         second = first ^ second;
         first = first ^ second;
 
-        System.out.print( first +" ");
-        System.out.print(second);
+        System.out.println(first +" ");
+        System.out.println(second);
     }
 
-    public static void main(String[] args) {
-        swap(5,6);
-    }
 }
